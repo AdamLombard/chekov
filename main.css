@@ -1,0 +1,23 @@
+li {
+  border: 1px solid #ddd;
+  margin: 2px;
+  padding: 2px 0px;
+}
+
+li input {
+  display: none;
+}
+
+li span {
+	margin-left: 10px;
+}
+
+li.editMode span {
+  display: none;
+}
+
+li.editMode input {
+  display: initial;
+	width: 75%;
+	margin-left: 10px;
+}
